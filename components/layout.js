@@ -1,14 +1,18 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+
+
+import Navbar_compo from '../components/navbar_compo'
+import Footer from "../components/Footer"
 
 export default function Layout ({children}) {
   return (
-    <>
-      <Header/>
+    <div>
+     
+     <Navbar_compo/>
       <main>
+        
         {children}
       </main>
-      <Footer/>
-    </>
+     <Footer/>
+    </div>
   )
 }

@@ -1,5 +1,10 @@
 import { Provider } from 'next-auth/client'
-import './styles.css'
+
+import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap-social/bootstrap-social.css';
+
 
 // Use the <Provider> to improve performance and allow components that call
 // `useSession()` anywhere in your application to access the `session` object.

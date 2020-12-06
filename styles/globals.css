@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin-bottom: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.footer{
+    background-color: #D1C4E9;
+    margin:2px auto;
+    padding: 20px 0px 20px 0px;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+
+.copyright{
+  text-align: center;
+}
+/* .jumbotron{
+  color: rgb(17, 29, 141);
+  text-align: center;
+  background-image: url('/insviraat.jpg');
+  min-height: 300px;
+} */
+
+
+#iso{
+  color: darkgreen;
+}
+
+
+h1{
+  color: #0275d8;
+}
+h3{
+  color: #0275d8;
+}
+
+#indexcol{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#abtcol{
+  margin: 10px 20px;
+}
+
+.table{
+  margin:20px;
+}
+
+ 
+
+
+#contact_h1{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-emphasis:bold;
+}
+
+
+
+#edit-user-form{
+  color: #0275d8;
+  border-color: #0275d8;
+  border-width: 5px;
+  margin: 20px 280px;
+}
+#deleteuserfeedback{
+  color: #0275d8;
+  border-color: #0275d8;
+  border-width: 5px;
+  margin: 20px 280px;
+}
