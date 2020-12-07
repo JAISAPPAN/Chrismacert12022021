@@ -1,6 +1,8 @@
 import Layout from '../components/layout'
 
 import {Row,Table,Col} from 'react-bootstrap'
+import PaginatedContent from '../components/pagination_About_compo'
+
 
 
 
@@ -14,7 +16,7 @@ export default function About() {
     return (
         <div>
         <Layout>
-        <main>
+     <PaginatedContent/>
         <Row>
                 <Col id="abtcol" sm={5}><Abt_Content /></Col>
                 <Col id="abtcol" sm={6}><GRE_Pipes /></Col>
@@ -23,7 +25,7 @@ export default function About() {
             
             <Abt_service_List_Page/>
             
-            </main>
+                
         </Layout>
         </div>
 
@@ -80,7 +82,7 @@ export function Abt_service_List_Page() {
 export function Abt_Content () {
     return (
         <div>
-            <p>We deliver innovative, integrated technical solutions.Our work span across four major 
+            <p><strong>We deliver innovative, integrated technical solutions.</strong>Our work span across four major 
             industries(Oil & Gas,Industrial,Water and Manine & Offshore. </p>
             <p>Our strength is well qualified and trained staff. We deliver innovative, integrated technical solutions
 </p>

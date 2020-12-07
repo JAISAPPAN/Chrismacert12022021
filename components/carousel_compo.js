@@ -10,9 +10,9 @@ export default function Carousel_compo() {
             <Carousel>
             {
                 List_Images.map(lst=>(
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
-                            className="d-block w-100 h-20"
+                            className="d-block w-100 h-18"
                             src={lst.url}                       
                         />
                        

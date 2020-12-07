@@ -32,6 +32,7 @@ export default function Navbar_compo() {
                
              
             </Navbar>
+           
             <JumboIndex/>
         </div>
     )

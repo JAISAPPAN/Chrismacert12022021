@@ -10,9 +10,9 @@ export default function Carousel_compo() {
             <Carousel>
             {
                 List_Images.map(lst=>(
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100 h-20"
+                    <Carousel.Item id="figabt">
+                        <img 
+                            
                             src={lst.url}                       
                         />
                        
