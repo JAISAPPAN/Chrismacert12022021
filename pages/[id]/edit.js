@@ -5,6 +5,8 @@ import Form from '../../components/Form'
 import Layout from '../../components/layout'
 
 
+
+
 const fetcher = (url) =>
   fetch(url)
     .then((res) => res.json())
@@ -23,6 +25,7 @@ const EditUser = () => {
     last_name: user.last_name,
     emailId: user.emailId,
     ph_number: user.ph_number,
+    feedback: user.feedback,
     
   }
 

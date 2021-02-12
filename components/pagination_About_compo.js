@@ -1,22 +1,42 @@
-import {Pagination as Pagi,Figure,Row} from 'react-bootstrap'
+import {Pagination as Pagi,Row,Card} from 'react-bootstrap'
 import { List_Images} from '../components/list_images'
 import { Children, useState } from "react";
 //import Pagination from "react-js-pagination";
+import Image from 'next/image'
 
 const PaginatedContent = () =>
 {
     // Data to be rendered using pagination.
     const todos = List_Images.map(lt=>(
 
-        <Figure id="figabt" >
-            <Figure.Image
+       
+           
+                   
+                        <Card>
+                            <Card.Header as="h3">{lt.header}</Card.Header>
+                            <Card.Img variant="top" src={lt.url} />
+                            <Card.Body>
+                                <Card.Title>Special title treatment</Card.Title>
+                                <Card.Text>
+                                    With supporting text below as a natural lead-in to additional content.
+                                    </Card.Text>
 
-                src={lt.url}
-            />
+                            </Card.Body>
+                        </Card>
 
-        </Figure>
-    ));
-    const todosPerPage = 3;
+
+                    
+
+                )
+
+            
+
+       
+
+
+     
+    );
+    const todosPerPage = 1;
     const [activePage, setCurrentPage] = useState(1);
 
     // Logic for displaying current todos
@@ -83,12 +103,17 @@ const PaginatedContent = () =>
                     <Pagi.Item onClick={() => setCurrentPage(18)}>{18}</Pagi.Item>  
                     <Pagi.Item onClick={() => setCurrentPage(19)}>{19}</Pagi.Item>  
                     <Pagi.Item onClick={() => setCurrentPage(20)}>{20}</Pagi.Item> 
-                    <Pagi.Item onClick={() => setCurrentPage(21)}>{21}</Pagi.Item>    
+                    <Pagi.Item onClick={() => setCurrentPage(21)}>{21}</Pagi.Item> 
+                    <Pagi.Item onClick={() => setCurrentPage(22)}>{22}</Pagi.Item>  
+                     <Pagi.Item onClick={() => setCurrentPage(23)}>{23}</Pagi.Item>  
+                    <Pagi.Item onClick={() => setCurrentPage(24)}>{24}</Pagi.Item>  
+                    <Pagi.Item onClick={() => setCurrentPage(25)}>{25}</Pagi.Item>  
+                    <Pagi.Item onClick={() => setCurrentPage(26)}>{26}</Pagi.Item>     
 
                         
                         
                     <Pagi.Next onClick={() => setCurrentPage(activePage+1)} />
-                    <Pagi.Last onClick={() => setCurrentPage(21)} />
+                    <Pagi.Last onClick={() => setCurrentPage(26)} />
                     
                 </Pagi>
             </Row>
@@ -106,4 +131,19 @@ export default PaginatedContent;
 //     totalItemsCount={todos.length}
 //     pageRangeDisplayed={3}
 //     onChange={handlePageChange}
+// />
+
+// <Figure id="figabt" >
+//     <Figure.Image
+
+//         src={lt.url}
+//     />
+
+// </Figure>
+
+
+// <Image
+//     width={600}
+//     height={500}
+//     src={lt.url}
 // />

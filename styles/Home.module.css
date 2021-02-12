@@ -2,11 +2,11 @@
 .jumboIndex{
   
   background-image: url('../public/ISO9001.png');
-  background-size: 200px 150px;
-  background-position: 50px 120px ;
+  background-size: 150px 150px;
+  background-position: 50px 20px ;
   background-repeat: no-repeat;
   width: 100%;
-  height: 290px;
+  height: 330px;
   z-index: 1;
   margin-top: 10px;
   margin-bottom: 10px;

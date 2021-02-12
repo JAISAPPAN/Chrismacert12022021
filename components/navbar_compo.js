@@ -14,7 +14,7 @@ export default function Navbar_compo() {
                             width={350}
                             height={200}
                            
-                            src="./logo.jpg"
+                            src="./logo.png"
                         />
                        
                     </Figure>
@@ -37,5 +37,6 @@ export default function Navbar_compo() {
         </div>
     )
 }
+
 
 

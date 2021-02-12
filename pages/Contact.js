@@ -1,7 +1,7 @@
 import {Form,Button,Container,Row,Col,Carousel,Alert,Modal} from 'react-bootstrap';
 import Layout from '../components/layout'
 
-import AlJazeera_Map, { AlJazeera_MapComponent } from '../components/AlJazeera_Map';
+import Chrisma_Map, { Chrisma_MapComponent } from '../components/chrisma_Map';
 import style from '../styles/Home.module.css'
 import NewUser from './new'
 
@@ -21,7 +21,7 @@ export default function Contact() {
            
                 <Row>
                     <Col sm={7}>
-                            <AlJazeera_Map/>
+                    <Chrisma_Map/>
                         
                     </Col>
                     <Col sm={5}>

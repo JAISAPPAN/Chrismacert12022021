@@ -24,14 +24,15 @@ export default function Footer() {
                     <Col sm={4}>
                         <div>
                             <h5>Our Address</h5>
-                            <h6>AL JAZEERA Pipe Lines Cinstruction Cont. LLC</h6>
+                            <h6>INKTERPRETING</h6>
                             <address>
-                                P.o. BOX 7117<br />
-		              AJMAN<br /> UNITED ARAB EMIRATES<br />
+                                Office No.4<br />
+                      ANAND PARADISE<br />Indralok Phase -VI<br/>Bhayander (E), Thane - 401105
+                      <br/>Maharastra<br/>INDIA<br />
                       
-                                <i className="fa fa-phone fa-lg"></i>: +971-558046299.<br />
-                                <i className="fa fa-whatsapp fa-lg"></i>:+971-563337725.<br />
-                                <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:jleenachen@gmail.com">
+                                <i className="fa fa-phone fa-lg"></i>: +91-7710809506<br />
+                                <i className="fa fa-whatsapp fa-lg"></i>:+91-7710809506.<br />
+                                <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:CHRISTO@gmail.com">
                                 </a><br />
                                
                             </address>

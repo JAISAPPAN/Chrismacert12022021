@@ -15,19 +15,23 @@ export default function Index_compo()
 
 
             <Row>
-                <Col id="indexcol" sm={5}>
-                    <p><strong>AL JAZEERA Pipe Lines Cinstruction Cont. LLC</strong> is an
-              established venture (ISO 9001:2015 Certified) in the field of reinforced composite materials in the Middle East Region. The company’s founders believe in the policy of using advanced technical expertise and high quality raw materials to provide our customers with superior quality pipes and other GRP/GRV/GRE products. With the use of advanced machinery in our growing production facility along with a trained workforce we seek to satisfy the growing demand for GRP products in the region.
+                <Col id="indexcol" sm={4}>
+                    <p><strong>INKTERPRETING</strong> is an
+              established venture (ISO 9001:2015 Certified) in the field of Digital Marketing in India
 
-Pipe systems serve similar function as the veins in the human body. Pipes are utilized in
-various fields for distribution, transmission or as an industry’s engineering component. Our
-products like GRP/GRV/GRE Pipes and fittings will cater to various streams of infrastructure –
-construction, petrochemical plants, sewerage lines, drainage lines, desalination plants, potable water supply, cooling water lines, district cooling
-systems and many more.</p>
-
+We are one of Mumbai's best Digital Marketing company aims to build a great and flourishing business for its client. As a team, we believe in assisting our clients and providing the best user experience for their website and business growth. Our digital marketing expertise, with its effective strategies and progressive ideas, promises to turn your business into a successful name.</p>
+                    <p><strong>WHY INKTERPRETING</strong>
+                    <ul>
+                            <li>We have executed the work as per client requirements, whether PPC, SMO, or SEO</li>
+                            <li>We have clients from different sectors, and we generated good revenues for the clients</li>
+                            <li>Our designers have successfully helped to get better results in creatives, which stands unique amongst the competitors</li>
+                            <li>Our Development has tremendous knowledge to track each and everything in the confined zone</li>
+                            <li>We develop your website SEO and mobile-friendly that reduces your SEO efforts</li>
+                    </ul>
+                    </p>
 
                 </Col>
-                <Col sm={6}>
+                <Col sm={7}>
                     <Carousel_compo />
                 </Col>
             </Row>

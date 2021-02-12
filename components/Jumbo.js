@@ -6,11 +6,14 @@ export function JumboIndex() {
     return (
         <div >
             <Jumbotron className={style.jumboIndex}>
-                <h1>AL JAZEERA Pipe Lines Construction Cont. LLC</h1>
+                <h1>INKTERPRETING</h1>
                 <h2 id="iso">ISO 9001:2015 CERTIFIED COMPANY</h2>
-                <h3>Work Contracts and Material Supply</h3>
+                <h3>SPECIALISTS IN </h3>
                 <p>
-                    (GRP,GRE,GRV PIPE FILAMENT AND DUEL HELICAL WINDED)
+                    BRANDING STRATEGY | DIGITAL MARKETING CONSULTANCY | SEARCH ENGINE | SOCIAL MEDIA |
+                    SEO | SOCIAL MEDIA MANAGEMENT | WEB DESIGN | WEB APPLICATIONS| CREATIVE DEVELOPEMENT |
+                    MOBILE APP DEVELOPEMENT | INFLUNCER MARKETING | CONTENT CREATION | VIDEO CONTENT CREATION | 
+                    AMAZON MARKETING | ONLINE REPUTATION MANAGEMENT | EMAIL MARKETING AND SMS MARKETING.
         </p>
                 <p>
 
